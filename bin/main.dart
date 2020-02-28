@@ -7,5 +7,15 @@
 // triangle(215) ➞ 23220
 
 void main() {
+triangle(1);
+print(triangle(6));
+}
 
+int triangle(count){
+  int result = 0;
+  for(int i = 0; i < count; i++){
+//    print();
+    result = result + (count - i);
+  }
+  return (result);
 }
